@@ -89,9 +89,11 @@ print("Accuracy", (log_model.score(x_test, y_test)))
 
 <h3> 10) Build the confusion matrix using testing set </h3>
 
+```bash
 from sklearn.metrics import confusion_matrix
 confusion_matrix = confusion_matrix(y_test, y_prediction)
 print(confusion_matrix)
+```
 
 
 <h3> Conclusion </h3>
